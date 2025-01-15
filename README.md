@@ -13,28 +13,33 @@ Jest
 SETUP
 1. Clone the Repository
 git clone https://github.com/GbemiB/bookstore
+
 cd bookstore
 
 
-2. Install Dependencies
+3. Install Dependencies
 npm install
 
-3. Environment Variables
+4. Environment Variables
 PORT=3000
+
 DB_URL=mongodb://localhost:27017/bookstore
 
 
-4. Compile TypeScript
+6. Compile TypeScript
 npm run build
 
-5. Run the Application
+7. Run the Application
 You can run locally or using docker 
 
 Locally 
+
 npm run start
 
 Docker
+
 docker build -t bookstore .
+
 docker run -p 5001:5001 bookstore
 
 6. Run Tests
