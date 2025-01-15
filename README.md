@@ -12,7 +12,7 @@ Jest
 
 SETUP
 1. Clone the Repository
-git clone https://github.com/yourusername/bookstore-api.git // update
+git clone https://github.com/GbemiB/bookstore
 cd bookstore
 
 
