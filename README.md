@@ -28,12 +28,19 @@ DB_URL=mongodb://localhost:27017/bookstore
 npm run build
 
 5. Run the Application
+You can run locally or using docker 
+
+Locally 
 npm run start
+
+Docker
+docker build -t bookstore .
+docker run -p 5001:5001 bookstore
 
 6. Run Tests
 npm run test
 
-
+```json
 API Routes
 Books
 Create a new book: POST /api/v1/book
@@ -46,7 +53,9 @@ Request body:
     "ISBN": "9783161484101"
 }
 
+
 Response:
+
 {
     "message": "Book created successfully.",
     "data": {
@@ -253,3 +262,4 @@ Response:
 {
   "message": "Category deleted successfully."
 }
+```
